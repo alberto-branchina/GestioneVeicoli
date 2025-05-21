@@ -9,12 +9,16 @@ public class Automobile implements Veicolo{
 
     @Override
     public String getModello() {
-        return "";
+        return modello;
     }
 
     @Override
     public int getAnno() {
-        return 0;
+        return anno;
+    }
+
+    public int getPorte() {
+        return porte;
     }
 
     @Override
