@@ -19,9 +19,6 @@ public class Automobile implements Veicolo{
 
     @Override
     public void StartMotore() {
-
-    }
-    public void startMotore(){
         System.out.println("\uD83D\uDE97 Motore acceso: Brrrum!");
     }
 }
