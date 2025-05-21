@@ -1,7 +1,7 @@
 public class Automobile implements Veicolo{
-    private int modello, anno, porte;
-
-    public Automobile(int modello, int anno, int porte) {
+    private  int anno, porte;
+    private String modello;
+    public Automobile(String modello, int anno, int porte) {
         this.modello = modello;
         this.anno = anno;
         this.porte = porte;
